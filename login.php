@@ -13,7 +13,7 @@ $senha = $_POST["senha"];
 
 $sql = "SELECT * FROM dados
 WHERE usuario = '{$usuario}'
-AND senha '{$senha}'";
+AND senha '".md5($senha)."'";
 
 $res = $conn->query($sql) or die($conn->error);
 
