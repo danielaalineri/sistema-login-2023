@@ -1,0 +1,13 @@
+/**FOLHA DE ESTILO SISTEMA DE LOGIN E SENHA**/
+
+body{
+    background-color: #f2f2f2;
+}
+
+.login{
+   width: 100%;
+   height: 100vh;
+   align-items: center;
+   justify-content: center; 
+   display: flex; 
+}
